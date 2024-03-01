@@ -18,7 +18,7 @@ const Slider = () => {
           loop: true,
         }}
       >
-        <CarouselContent className="w-[280px] sm:w-[400px] md:w-[600px] lg:w-full">
+        <CarouselContent className="w-[280px] sm:w-[400px] md:w-[600px] lg:w-[900px] xl:w-full">
           {sliderData.map((item, index) => (
             <CarouselItem key={index} className="lg:basis-1/2 w-min">
               <div className="flex flex-col justify-center items-center text-center">
